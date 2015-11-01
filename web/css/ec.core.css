@@ -1,0 +1,299 @@
+@CHARSET "UTF-8"; 
+/**begin public**/
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,hr,button,article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+{
+	margin: 0;
+	padding: 0;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section
+	{
+	display: block;
+}
+
+input,select,textarea {
+	font-size: 100%;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+th {
+	text-align: inherit;
+}
+
+fieldset,img,a img {
+	border: 0 none;
+}
+
+iframe {
+	display: block;
+}
+
+address,caption,cite,code,dfn,em,th,var {
+	font-style: normal;
+	font-weight: 400;
+}
+
+ol,ul {
+	list-style: none;
+}
+
+caption,th {
+	text-align: left;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-size: 100%;
+	font-weight: 400;
+}
+
+q:before,q:after {
+	content: '';
+}
+
+sub,sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+ins,a {
+	text-decoration: none;
+	color: #333;
+}
+
+a {
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+:focus {
+	outline: 0;
+}
+
+.hide,.hidden {
+	display: none;
+}
+
+.tar {
+	text-align: right;
+}
+
+.vat {
+	vertical-align: top;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.vam {
+	vertical-align: middle;
+}
+
+.vat {
+	vertical-align: top;
+}
+
+label.vam {
+	vertical-align: middle;
+	font-family: tahoma;
+}
+
+button {
+	width: auto;
+	overflow: visible;
+}
+
+.ime-disabled {
+	ime-mode: disabled !important;
+}
+
+.hr-50 {
+	height: 50px;
+}
+
+.hr-60 {
+	height: 20px;border-bottom:solid 1px #aaa;margin-left:auto;margin-right:auto;width:70%;
+}
+
+/**end public**/
+
+/**begin form validate**/
+.icon-error,.icon-ok,.icon-warn,.box-close{background: transparent url(../images/icon1.png) scroll no-repeat;}
+.icon-ok {background-position: -213px -71px;}
+.icon-error {background-position: -187px -97px;}
+.icon-warn {background-position: -161px -123px;}
+
+.icon-detect,.icon-error,.icon-ok,.icon-warn {padding: 1px 0 1px 25px;height: 15px;line-height: 15px;display: inline-block;margin-left: 10px;}
+.icon-detect {color: #F96209;}
+.icon-ok {color: #61A326;}
+.icon-error {color: #B00;}
+.icon-warn {color: #F96209;}
+.error {border-color: #BC0000 !important;color: #B00;font-weight: 700;font-size: 12px;}
+.text:focus,.textarea:focus,.verify:focus,input.hover,input.error:focus{border-color: #EE9043 !important;background-color: #FFFFE9;}
+.required {color: #F00;font-family: \5B8B\4F53;margin-right: 2px;}
+/**end  form validate**/
+
+
+/***begin box css***/
+.ol_box .box-header,.ol_box .box-tl,.ol_box .box-tr,.ol_box .box-tc {background: transparent url(../../images/echannel/bg/bg22.jpg) scroll no-repeat;}
+
+.ol_box_mask {
+	position: fixed !important;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 499;
+	opacity: .4;
+	filter: alpha(opacity : 40);
+	background-color: #000;
+	visibility: visible;
+}
+
+.ol_box {
+	background-color: #FFF;
+	overflow: visible;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.ol_box div {
+	overflow: visible;
+}
+
+.ol_box .box-header {
+	position: relative;
+	padding-bottom: 4px;
+	background-position: 0 2px;
+}
+
+.ol_box .box-tl,.ol_box .box-tr {
+	position: absolute;
+	width: 2px;
+	height: 4px;
+	font-size: 1px;
+	line-height: 1px;
+	top: 30px;
+}
+
+.ol_box .box-tl {
+	background-position: 0 -28px;
+	left: 0;
+}
+
+.ol_box .box-tr {
+	background-position: right -28px;
+	right: 0;
+}
+
+.ol_box .box-tc {
+	cursor: move;
+	height: 28px;
+	line-height: 28px;
+	border: 1px solid #C52525;
+	background-position: center 0;
+}
+
+.ol_box .box-cl,.ol_box .box-cr {
+	display: none;
+}
+
+.ol_box .box-cc {
+	vertical-align: top;
+}
+
+.ol_box .box-title {
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFF;
+	margin-left: 14px;
+}
+
+.ol_box .box-close {
+	display: block;
+	height: 11px;
+	padding-left: 12px;
+	background-position: -148px 0;
+	line-height: 1px;
+	position: absolute;
+	right: 10px;
+	top: 9px;
+}
+
+.ol_box .box-content {
+	clear: both;
+	border: 1px solid #EEE;
+	border-top: 0 none;
+}
+
+.ol_box .box-loading {
+	background-position: center center;
+}
+
+/***end box css***/
+
+/******Begin*注册密码复杂度*/
+.pwd-letter {margin-top:3px;}
+.pwd-letter span{
+ width:80px; background:#eee;margin-left:1px; display:block; float:left;text-align: center;color:#aaa;
+}
+.pwd-letter .off_pwd{
+ background:#eee;color:#aaa;
+}
+.pwd-letter .on_pwd_1{
+ background:red;color:white;
+}
+.pwd-letter .on_pwd_2{
+ background:#f1d93a;color:white;
+}
+.pwd-letter .on_pwd_3{
+ background:#63b418;color:white;
+}
+/******End*注册密码复杂度*/
+
+/***Begin第三方帐号登录***/
+s{text-decoration:none}
+.qqLogin s,.qqWebLogin s,.alipayLogin s,.sinaWebLogin s,.faceBookLogin s{background: url('../../images/thirdfast_login_all_gray.png') no-repeat; width:18px; height:18px;  display:inline-block;margin-bottom:-5px;}
+.qqLogin a,.qqWebLogin a,.alipayLogin a,.sinaWebLogin a,.faceBookLogin a{height:18px; line-height:18px; position:relative;top:-3px;left:2px; padding-right:10px;text-decoration: none;}
+.qqLogin s{background-position:-185px 0px;}
+.qqWebLogin s{background-position:-48px 0px;}
+.alipayLogin s{background-position:-132px -23px;}
+.sinaWebLogin s{background-position:0px 0px;}
+.faceBookLogin s{background-position:-61px -23px;}
+
+.qqLogin s:hover,.qqWebLogin s:hover,.alipayLogin s:hover,.sinaWebLogin s:hover,.faceBookLogin s:hover{background: url('../../images/thirdfast_login_all.png') no-repeat; width:18px; height:18px;  display:inline-block;margin-bottom:-5px;}
+.qqLogin a:hover,.qqWebLogin a:hover,.alipayLogin a:hover,.sinaWebLogin a:hover,.faceBookLogin a:hover{height:18px; line-height:18px; position:relative;top:-3px;left:2px; padding-right:10px;text-decoration: none;}
+.qqLogin s:hover{background-position:-185px 0px;}
+.qqWebLogin s:hover{background-position:-48px 0px;}
+.alipayLogin s:hover{background-position:-132px -23px;}
+.sinaWebLogin s:hover{background-position:0px 0px;}
+.faceBookLogin s:hover{background-position:-61px -23px;}
+
+.faceBookLogin_bigIco a{background: url('../../images/facebook_login.png') no-repeat;width:140px; height:40px;display: block;}
+.googleLogin_bigIco a{background: url('../../images/google_login.png') no-repeat;width:140px; height:40px;display: block;}
+.qqLogin_bigIco a{background: url('../../images/big_qq_login.png') no-repeat;width:30px; height:30px;display: block;line-height:30px;}
+.twitterLogin_bigIco a{background: url('../../images/twitter_login.png') no-repeat;width:152px; height:40px;display: block;}
+.vkLogin_bigIco a{background: url('../../images/vk_login.png') no-repeat;width:140px; height:40px;display: block;}
+
+/***End第三方帐号登录***/
+
+.clearboth{clear:both;height:0px;border:0px;line-hegith:0px;}
+
+/***Begin体验注册email输入文本框增加email结尾***/
+.seachDiv{background:#fff; width:250px;position: absolute;z-index:99999; border:solid 1px #bcbcbc;}
+.seachDiv ul li{background:#fff;padding-left:5px;}
+.seachDiv ul li:hover{background:#eee;padding-left:5px;cursor:pointer;}
+/***End体验注册email输入文本框增加email结尾***/
+

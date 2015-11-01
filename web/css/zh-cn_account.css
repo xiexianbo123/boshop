@@ -1,0 +1,678 @@
+@CHARSET "UTF-8"; 
+
+html {
+	color: #5C5C5C;
+	background-color: #D4D4D3;
+	height:100%;
+	overflow-y:auto;
+		background: #dadada;
+}
+
+body {
+	height:100%;
+	width:100%;
+	_position: relative;
+}
+
+body,button,input,select,textarea {
+	font: 12px/1.5 Arial, Helvetica, sans-serif;
+}
+
+/*login*/.g {
+	position: relative;
+}
+
+a {
+	color: #5C5C5C;
+}
+
+#layer{
+	position:absolute;
+	left:-10000px;
+	top:0px;
+}
+
+.full{
+	width:100%;
+	height:100%;
+	left:0px!important;
+}
+
+.mc{
+	width:100%;
+	height:100%;
+	opacity:0.5
+}
+.load{
+	z-index:10;
+	height:0px;
+	margin-left:10px
+}
+.loadmc{
+	height:30px!important
+}
+/*login*/.login {
+	background: #D4D4D3 url(../images/bg9.jpg) scroll
+		no-repeat center -42px;
+}
+
+/*forgetbyid*/.forget,.reset {
+	background: #dadada;
+}
+
+/*regbyphone*//*regbymail*/.reg,.mv {
+	background: #D4D4D3 url(../images/bg10.jpg) scroll
+		no-repeat center 0;
+}
+
+/*activity_success*//*forgetbyid*/.forget-area .h h3,.reset-area .h h3,.forget-area .h_activity h3{
+	background: transparent url(../../images/common/sprites4.png)
+		scroll no-repeat;
+}
+
+.button-next,.button-submit,.button-email,.button-phone,.button-prompt,.button-forget,.button-reset,.button-reg,.agreement-area .box-ok
+{
+	border-radius: 3px;
+	padding:8px 30px;
+	width: auto;
+	height: 36px;
+	font-weight: bold;
+	font-size: 14px;
+	background-image:none;
+	background-color:RGB(180,7,7);
+	border-width:0 0 2px 0;
+	border-style:solid;
+	border-color:RGB(180,7,7);
+	text-align:center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.button-next:hover,.button-submit:hover,.button-email:hover,.button-phone:hover,.button-login:hover,.button-prompt:hover,.button-forget:hover,.button-reset:hover,.agreement-area .box-ok:hover
+{
+	background-color: RGB(199,0,0);text-decoration: none;color: #fff;cursor: pointer;border-color:RGB(181,0,0);
+}
+
+
+.button-login {
+	border-radius: 3px;padding:7px 25px;width: auto;height: 42px;font-weight: bold;font-size: 18px;background-image:none;background-color:RGB(180,7,7);border-width:0 0 2px 0;border-style:solid;border-color:RGB(180,7,7);text-align:center;color: #fff;cursor: pointer;
+}
+
+.button-reg
+{
+	border-radius: 3px;
+	padding:5px 30px;
+	width: auto;
+	height: 36px;
+	font-weight: bold;
+	font-size: 18px;
+	background-image:none;
+	background-color:RGB(255,137,36);
+	border-width:0 0 2px 0;
+	border-style:solid;
+	border-color:RGB(255,137,36);
+	text-align:center;
+	color: #fff;
+	cursor: pointer;
+}
+
+.button-reg:hover
+{
+	background-color: RGB(255,122,49);text-decoration: none;color: #fff;cursor: pointer;border-color:RGB(255,122,49);;
+}
+
+.button-login-2{
+	border-radius: 3px;
+	padding:5px 30px;
+	width: auto;
+	height: 36px;
+	font-weight: bold;
+	font-size: 14px;
+	background-image:none;
+	background-color:RGB(197,197,197);
+	border-width:0 0 2px 0;
+	border-style:solid;
+	border-color:RGB(197,197,197);
+	text-align:center;
+	color: #fff;
+	cursor: pointer;
+	direction: none;
+}
+
+/*login*/.login-area {
+	background: transparent url(../images/bg11.jpg) scroll
+		no-repeat;
+}
+/*login*/.login-area-marginTop {
+	margin-top: -45px;
+}
+/*login*/.login-form-marginTop {
+	margin-top: -20px;
+}
+/*forgetbyid*/.forget-area .h,.reset-area .h {
+	background: transparent url(../../images/echannel/bg/bg25.png) scroll
+		no-repeat;
+}
+
+/*forgetbyid*/.forget-area .f,.reset-area .f {
+	background: transparent url(../../images/echannel/bg/bg27.png) scroll
+		no-repeat;
+}
+
+/*regbyphone*//*regbymail*/.reg-area,.mv-area {
+	background: transparent url(../images/bg13.png) scroll
+		no-repeat;
+}
+
+/*regbymail*/.reg-area .b,.mv-area .b {
+	background: #FFF url(../../images/echannel/bg/bg26.png) scroll no-repeat;
+}
+
+
+/*login*/.customer-header {
+	height: 73px;
+}
+
+/*login*/.customer-header .logo {
+	padding-top: 30px;
+}
+
+.customer-header .logo {
+	padding-left: 36px;
+}
+
+.customer-header .g table td
+{
+	padding-top: 30px;
+}
+
+.customer-header .g table span {
+	font-size: 22px;
+	font-family: 微软雅黑;
+	display: block;
+	padding-left: 10px;
+	color: #777777;
+}
+
+/*forgetbyid*//*regbyphone*//*regbymail*/.reset .customer-header .logo,.forget .customer-header .logo,.reg .customer-header .logo,.mv .customer-header .logo
+	{
+	padding-left: 105px;
+}
+
+/*login*/.customer-footer {
+	width: 100%;
+	background-position: 0 0;
+	background-repeat: repeat-x;
+	height: 58px;
+	bottom: 0;
+	z-index: 3;
+	_position: absolute;
+}
+
+/*login*/.customer-footer .warrant-area {
+	padding-top: 2px;
+	line-height: 56px;
+}
+
+/*login*/.customer-footer .warrant-area p {
+	text-align: center;
+}
+
+/*login*/.customer-footer .warrant-area p,.customer-footer a {
+	color: #999;
+}
+
+/*login*/.form-edit-area th {
+	font-size: 14px;
+	width: 218px;
+	color: #838282;
+}
+
+/*login*/.form-edit-area em {
+	color: #808080;
+}
+
+/*login*/.form-edit-area .text,.form-edit-area .verify {
+	border: 1px solid #bcbcbc;
+	color: #8B8B8B;
+	height: 20px;
+	line-height: 20px;
+	padding: 6px;
+	border-radius: 4px 4px;
+}
+
+/*login*/.form-edit-area .text {
+	width: 239px;
+}
+
+/*login*/.form-edit-area .verify {
+	width: 96px;
+}
+
+/*login*/.form-edit-area .forgot {
+	color: #929292;
+	display: inline-block;
+	margin-left: 108px;
+	*margin-left: 103px;
+}
+
+/*login*/.form-edit-area a.vam {
+	font-family: Tahoma;
+}
+
+/*login*/.form-edit-area a.link {
+	color: #004E97;
+	text-decoration: underline;
+}
+
+/*login*/.login-area {
+	padding-left: 688px;
+	min-height: 529px;
+	background-position: 64px 0;
+}
+
+/*login*/.login-area .h {
+	padding: 96px 0 18px 2px;
+}
+
+/*login*/.login-area .h h3 {
+	width: 203px;
+	height: 22px;
+	background-position: 0 0;
+}
+
+/*login*/.login-area .h span {
+	font-size:23px; color:#ea5e00;font-weight: bold; display:block;width:300px;
+}
+
+/*login*/.login-area p {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #DADADA;
+	width: 253px;
+}
+
+/*login*/.login-area p a {
+	color: #ea5e00;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/*forgetbyid*/.forget-area,.reset-area {
+	width: 791px;
+	background-color: #FFF;
+	margin: 15px auto 0;
+}
+
+/*activity_success*//*forgetbyid*/.forget-area .h,.reset-area .h,.forget-area .h_activity {
+	height: 58px;
+	padding: 52px 0 0 150px;
+	background-position: 0 0;
+}
+
+/*activity_success*//*forgetbyid*/.forget-area .h h3,.reset-area .h h3 ,.forget-area .h_activity h3{
+	width: 144px;
+	height: 54px;
+}
+
+/*forgetbyid*/.forget-area .h h3 {
+	background-position: 0 0;
+}
+
+/*activity_success*//*forgetbyid*/.forget-area .h_activity h3 {
+	background-position: -290px 0;
+}
+
+/*activity_success*//*forgetbyid*/.forget-area .h span,.reset-area .h span ,.forget-area .h_activity span {
+	color:#666;font-size:20px; margin-left:65px;font-weight:600; display:block;width:400px;padding-top:6px;
+}
+
+/*forgetbyid*/.forget-area .b {
+	padding-top: 9px;
+	height: auto;
+	min-height: 347px;
+}
+
+/*forgetbyid*/.forget-area p {
+	padding: 26px 0 24px;
+	line-height: 31px;
+}
+
+/*forgetbyid*/.forget-area p span {
+	padding-left: 15px;
+}
+
+/*forgetbyid*/.forget-area .f,.reset-area .f {
+	height: 20px;
+	background-position: 0 bottom;
+}
+
+/*regbyphone*//*regbymail*/.reg-area {/*background:#fff;*/
+	width: 791px;
+	background-position: 0 0;
+	margin: 0 auto 0;
+	position: relative;
+}
+
+/*regbymail*/.reg-apply-area .h {
+	padding: 43px 0px 14px 220px;
+}
+
+/*regbymail*/.reg-apply-area .h h3 {
+	width: 400px;
+	height: 29px;
+	background-position: 0 -32px;
+}
+
+/*regbymail*/.reg-area .h span {
+	display: block;
+	height: 35px;
+	color: #b90006;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+/*regbymail*/.reg-area .b {
+	padding-top: 9px;
+	height: 427px;
+	background-position: 0 bottom;
+}
+
+/*regbymail*/.reg-area .form-area th {
+	width: 278px;
+}
+
+/*regbymail*/.reg-area .f {
+	padding-top: 6px;
+	height: 36px;
+}
+
+/*regbymail*/.reg-area .cloud {
+	position: absolute;
+	width: 226px;
+	height: 135px;
+	bottom: 19px;
+	left: -53px;
+	z-index: 2;
+	background: url(../images/bg14.png);
+	_background: none;
+	_filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../../images/echannel/bg/bg14.png',
+		sizingMethod='crop' );
+}
+
+
+
+
+.reg-agreement-area {
+	padding: 20px 32px 0;
+}
+
+.reg-agreement-area {
+	line-height: 23px;
+	font-size: 13px;
+	color: #777;
+}
+
+.reg-agreement-area h2 {
+	font-weight: 700;
+	color: #FFF;
+	height: 22px;
+	line-height: 22px;
+	background-position: 0 -219px;
+	padding-left: 10px;
+	margin-bottom: 24px;
+}
+
+.reg-agreement-area p {
+	margin-bottom: 19px;
+}
+
+.reg-agreement-area ul {
+	margin-bottom: 19px;
+}
+
+.reg-agreement-area a {
+	color: #0077D2;
+}
+
+/* 注册新增tab样式
+-------------------------------------------------------------- */
+/*regbymail*/.tab_div {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	height: 31px;
+	width:897px;
+	margin: 0px;
+	z-index: 99;
+	/*margin-top: 50px;*/
+	margin-top: 0;
+}
+
+.tab_div .on_tab:link,.tab_div .on_tab:activited,.tab_div .on_tab:visited,.tab_div .on_tab:hover{color:#fff; text-decoration:none;}
+
+
+/*regbyphone*//*regbymail*/.tab_div .on_tab_first_left {
+	background: url(../images/tab_bg.png) no-repeat;
+	background-position: -2px 0;
+	display: block;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 135px;
+	float: right;
+	margin-left:2px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*regbymail*/.tab_div .on_tab {
+	background: url(../images/tab_bg.png) no-repeat;
+	background-position: -1px -57px;
+	display: block;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 135px;
+	float: right;
+	margin-left: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*regbymail*/.tab_div .tab_first_left {
+	background: url(../images/tab_bg.png) no-repeat;
+	background-position: -157px 0;
+	display: block;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 135px;
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*regbyphone*//*regbymail*/.tab_div .tab {
+	background: url(../images/tab_bg.png) no-repeat;
+	background-position: -154px -57px;
+	display: block;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 135px;
+	float: right;
+	margin-right: 2px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fff;
+	cursor: pointer;
+}
+
+/*login_dialog*/.g_position {
+	margin-left: auto;
+	margin-right: auto;
+	width: 562px;
+	height: 411px;
+	background: #D4D4D3 url(../images/bg9.jpg) scroll
+		no-repeat center 0;
+	background-position: -1300px 0px;
+}
+
+/*login_dialog*/.g_position .b_dialog {
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	padding-top: 70px;
+}
+
+/*login_dialog*/.g_position .b_dialog .free_reg {
+	font-size: 14px;
+	color: #ea5e00;
+	font-weight: bold;
+}
+
+ .backRound {
+	background: url('../../images/common/tab_bg.png') no-repeat;
+	background-position:-154px -57px;
+	display: block;
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	width: 135px;
+	float:left;
+	margin-left:2px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+}
+
+.phone_text_width{width:126px!important;} 
+
+
+.smsCodeButton {
+	height:30px;
+	vertical-align:middle;
+	border-radius: 3px;background-image:none;background-color:#ccc;border-width:0 0 2px 0;border-style:solid #ccc;text-align:center;color: #666;cursor: pointer; padding:0px 5px;
+}
+.smsCodeButton:hover{ 
+	background-color: #ddd;text-decoration: none;color: #666;cursor: pointer;
+}
+
+.box-ok,.box-cancel{display:none;}
+
+
+/*ifmLogin*/.ifmLogin-area {
+	padding-left: 0px;
+	min-height: 529px;
+	background-position: 64px 0;
+}
+
+/*ifmLogin*/.ifmLogin-area .h {
+	padding: 96px 0 18px 2px;
+}
+
+/*ifmLogin*/.ifmLogin-area .h h3 {
+	width: 203px;
+	height: 22px;
+	background-position: 0 0;
+}
+
+/*ifmLogin*/.ifmLogin-area .h span {
+	font-size:23px; color:#ea5e00;font-weight: bold; display:block;width:300px;
+}
+
+/*ifmLogin*/.ifmLogin-area p {
+	margin-top: 10px;
+	padding-top: 10px;
+	border-top: 1px solid #DADADA;
+	width: 253px;
+}
+
+/*ifmLogin*/.ifmLogin-area p a {
+	color: #ea5e00;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+
+/*regbymail*/.form-edit-area th,.form-detail-area th {
+	text-align: right;
+}
+
+/*regbymail*/.form-edit-area th,.form-edit-area td {
+	padding: 10px 0;
+}
+
+/*login*/.form-edit-area input.vam {
+	_margin-top: -2px;
+}
+
+/*regbymail*/.form-edit-area .textarea {
+	border: 1px solid #D1D1D1;
+	padding: 2px 4px;
+}
+
+/*login*/.radio,.checkbox {
+	margin-right: 5px;
+}
+
+/*login*/.checkbox {
+	*width: 13px;
+	*height: 13px;
+}
+
+/*regbymail*/.form-edit-area .input[disabled] {
+	background-color: #F0F0F0;
+	color: #8B8B8B;
+}
+
+/*regbymail*/.form-edit-area .atta-area,.form-detail-area .atta-area {
+	padding-bottom: 14px;
+}
+
+/*regbymail*/.form-edit-area .atta-area {
+	margin-top: -5px;
+}
+
+/*regbymail*/.form-edit-area .atta-area li,.form-detail-area .atta-area li {
+	margin-bottom: 6px;
+}
+
+/*regbymail*/.form-edit-area .atta-area .icon-del {
+	margin-left: 16px;
+}
+
+/*forgetbymail*/.form-login-area .form-edit-area th,.form-book-area .form-edit-area th {
+	width: 138px;
+	padding-right: 7px;
+	font-size: 14px;
+}
+
+/*forgetbymail*/.form-mail-area .form-edit-area th {
+	font-size: 14px;
+	width: 107px;
+	padding-right: 7px;
+}
+
+/*login*/.g {
+	width: 1002px;
+	margin: 0 auto;
+	zoom: 1;
+}
+
+/*login*/.g:after {
+	content: "\0020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden;
+}

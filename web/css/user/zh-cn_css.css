@@ -1,0 +1,232 @@
+@CHARSET "UTF-8";
+/**Begin public**/
+body{margin:0px;background:RGB(242,242,242); font-family:微软雅黑, Verdana, Helvetica, Sans-Serif; }
+* { margin: 0; padding: 0; font-size: 12px; }
+img { border: none; }
+ul,li{list-style-type: none;}
+select{height:25px;border-radius: 3px;border:solid 1px #999;color:#28c0c6;}
+a{color:#28c0c6;text-decoration: underline; cursor: pointer;}
+p{margin:0px;padding:0px;}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset,img,a img {
+	border: 0 none;
+}
+
+iframe {
+	display: block;
+}
+
+.service dd a,.icon-clear,.icon-error,.icon-ok,.icon-warn,.icon-breadcrumb,.icon-quotes-right,.icon-reply,.icon-close,.box-close,.icon-minus,.icon-plus,.icon-over,.icon-arrow-up,.icon-arrow-down,.icon-letter-unread,.icon-letter-read,.icon-del,.icon-sc,.icon-search,.icon-sales
+	{
+	background: transparent url(../images/icon1.png) scroll no-repeat;
+}
+
+.icon-ok {
+	background-position: -213px -71px;
+}
+
+.icon-error {
+	background-position: -187px -97px;
+}
+
+.icon-warn {
+	background-position: -161px -123px;
+}
+
+.icon-detect,.icon-error,.icon-ok,.icon-warn {
+	padding: 1px 0 1px 25px;
+	height: 15px;
+	line-height: 15px;
+	display: inline-block;
+}
+
+.icon-detect,.icon-error,.icon-ok,.icon-warn,.noVerified {
+	margin-left: 10px;
+}
+
+.icon-detect {
+	color: #F96209;
+}
+.icon-ok {
+	color: #61A326;
+}
+.icon-error {
+	color: #B00;
+}
+.icon-warn {
+	color: #F96209;
+}
+.required {
+	color: #F00;
+	font-family: \5B8B\4F53;
+	margin-right: 2px;
+}
+.error {
+	border-color: #BC0000 !important;
+}
+.text:focus,.textarea:focus,.verify:focus,input.hover,input.error:focus
+	{
+	border-color: #EE9043 !important;
+	background-color: #FFFFE9;
+}
+span.error {
+	color: #B00;
+	font-weight: 700;
+	font-size: 12px;
+}
+.clearboth{clear:both;height:0px;border:0px;line-hegith:0px;}
+
+
+.imput_text{border-radius: 3px; padding:3px 5px; border: solid 1px #999;}
+.uc{margin:0px;}
+.uc .uc_head{height:100px;background:RGB(202,21,30);margin:0px;}
+.uc .uc_head .uc_head_middle{border:0px; width:1000px; margin-left:auto;margin-right:auto; height:100px;color:#ffffff;}
+.uc .uc_head .uc_head_middle_left{border:0px; width:500px;  height:50px;float:left;padding-left:65px;
+	background:url(./uc_logo.png) no-repeat; background-position:0 22px; font-size:28px;padding-top:25px;margin-left:65px;
+}
+.uc .uc_head .uc_head_middle_right{border:0px; width:340px;height:50px;float:left; padding-top:40px;text-align: right; padding-right:10px; font-size:14px;}
+
+.uc .uc_body{padding-top:30px;}
+.uc .uc_body .uc_body_form{background:RGB(249,249,249); min-height:700px;width:1000px; margin-left:auto;margin-right:auto;padding-bottom:30px;
+	-moz-box-shadow: 2px 2px 10px #909090;
+	-webkit-box-shadow: 2px 2px 10px #909090;
+	box-shadow:2px 2px 10px #909090;
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);/*ie*/
+}
+.uc .uc_body .uc_body_form{padding-top:1px; }
+.uc .uc_body .uc_body_form dl{margin-left:0px;margin-right:0px;margin-top:80px;}
+.uc .uc_body .uc_body_form dl .dd_left{width:230px; text-align:right;}
+.uc .uc_body .uc_body_form dl dd{float:left;margin-left:0px;}
+.uc .uc_body .uc_body_form dl dd table tr td{padding-top: 6px;padding-bottom: 6px; vertical-align: middle;}
+.uc .uc_body .uc_body_form dl dd table .cl_left{width:80px;font-size: 14px;}
+.no_check{color:red;}
+.yes_check{color:#28c0c6; background: url(../images/icon_2.png) no-repeat 0 2px; padding:5px 10px 5px 25px;}
+.logout_c{color:#fff;}
+
+.btn_midefy{border-radius: 15px;padding:7px 50px;width: auto;height: 42px;font-weight: normal;font-size: 14px;
+	background-image:none;background-color:RGB(202,21,30);border-width:0 0 2px 0;border-style:solid;border-color:RGB(202,21,30);text-align:center;
+	color: #fff;cursor: pointer;margin-top:5px;
+}
+.btn_midefy_cancel{border-radius: 15px;padding:7px 50px;width: auto;height: 42px;font-weight: normal;font-size: 14px;
+	background-image:none;background-color:RGB(231,231,231);border-width:0 0 2px 0;border-style:solid;border-color:#RGB(231,231,231);;text-align:center;
+	color: #000;cursor: pointer;margin-top:5px;
+}
+.btn_midefy_disable{border-radius: 15px;padding:7px 50px;width: auto;height: 42px;font-weight: normal;font-size: 14px;
+	background-image:none;background-color:#eee;border-width:0 0 2px 0;border-style:solid;border-color:#eee;text-align:center;
+	color: #ddd;cursor: pointer;margin-top:5px;
+}
+.upFileTop{padding-top:7px;}
+
+#headPic{width:160px;height:160px;}
+#uploadHead{width:160px; border:solid 1px #999; position: absolute;left:34px;position: absolute; background:url(./head_btn_bg.png);top:132px; cursor: pointer;
+height: 25px;line-height: 25px;z-index: 2;color: #fff;border: 1px solid #aeaeae;
+}
+#sltProvince,#sltCity{width:150px;}
+
+.dv_cell_left{float: left;}
+.dv_cell_right{float: left; width:20px;height:20px; position: relative;}
+.uc_tip{border:solid 1px #d1d1d1; border-radius: 5px;padding:10px 15px 7px 15px;position: absolute;color:#999; width:420px;bottom:28px;
+	left:-20px;box-shadow: 0 3px 3px #f0f0f0;background:#ffffff; height: auto;display: none;
+	-moz-box-shadow:0 3px 3px #f0f0f0; -webkit-box-shadow:0 3px 3px #f0f0f0; box-shadow:0 3px 3px #f0f0f0;line-height: 150%;
+	}
+.tip_point{
+	background-image: url(../images/icon_3.png);width: 18px;height: 18px;background-repeat: no-repeat;position: absolute;margin-left: 20px;bottom: -16px;
+}
+
+.uc_tip span,.uc_tip b{color:red;}
+.uc_tip p{text-indent: 0px;}
+
+.icon_wh{background:url(../images/icon_1.png);width:20px;height:20px;margin-left:10px;display: block;background-repeat: no-repeat;cursor: pointer;}
+
+.mobile_dialog_content_activity{width:100%; background: #fff;margin-top:50px;}
+.mobile_dialog_content_activity .m_tb_left{width:150px; text-align: right; height:40px;}
+.mobile_dialog_content_activity .m_tb_middle{width:145px;}
+.getSmsAuth{border:solid 1px #666; padding:3px; background:#ccc; cursor: pointer;}
+.activityOk{width:100%;background: #fff;margin-top:60px;}
+.activityOk .m_tb_left{width:150px; text-align: right; height:40px;}
+.activity_state_Ok{font-size:20px;padding-left:40px;background: url(../images/icon_4.png) no-repeat;}
+.confirm_agree_table{width:100%;background: #fff;margin:20px; font-size: 14px; }
+.confirm_agree_table table{width:95%;background: #fff;margin:0px;}
+.confirm_agree_table table tr td{height:50px; font-family: 微软雅黑; }
+.confirm_agree_table table tr td span{color:red;font-size: 15px;font-weight: bold; margin-top:10px; }
+.confirm_agree_table table tr td p{line-height: 150%;color:#666; }
+
+.footer{height:40px;margin-left:auto;margin-right:auto; padding-top:20px;}
+.footer .footer_outnet{width:100%; text-align:center; color:#a8a6a7;}
+.footer .footer_bottom{width:100%; text-align:center;color:#cecece;line-height:150%;}
+
+.footer .footer_bottom a:link,.footer .footer_bottom a:visited{color: #a8a6a6; text-decoration:none; }
+.footer .footer_bottom a:hover{color: #05a4e0; }
+
+.uc .uc_body .uc_body_form .rediractPerBusniss{width:80%;margin-left:auto;margin-right:auto;margin-top: 20px;}
+.uc .uc_body .uc_body_form .rediractPerBusniss h3{font-size:12px;color:RGB(202,21,30);width:100%;margin-bottom:5px;font-weight: bold;}
+.uc .uc_body .uc_body_form .rediractPerBusniss div{border-top:solid 1px RGB(202,21,30);width:100%;}
+
+.uc .uc_body .uc_body_form .rediractPerBusniss div a{display: inline-block; width: 190px;height: 30px;line-height:30px;
+font-weight: normal;font-size: 14px;
+text-align: left;cursor: pointer;margin-top: 10px;} 
+
+.uc .uc_body .uc_body_form .rediractPerBusniss div a:hover{color: #F96209;}
+
+/**updateUserPwd**/
+.uc .uc_body .uc_body_form .tb_pwd{margin:100px auto auto 240px }
+.uc .uc_body .uc_body_form .tb_pwd tr td{padding-top: 13px;padding-bottom: 13px; vertical-align: middle;}
+.uc .uc_body .uc_body_form .tb_pwd .cl_left{width:80px;font-size: 14px;padding-left:5px; text-align: left;}
+.uc .uc_body .uc_body_form .tb_pwd tr td .text_width{width:300px;}
+.uc .uc_body .uc_body_form .tb_pwd tr td .pwd-letter span{width:102px;}
+
+/**changeAccount_1**/
+.dir_icon1{background: url("../images/direction_1.png") no-repeat;}
+.dir_icon2{background: url("../images/diraction_2.png") no-repeat;}
+.dir_icon3{background: url("../images/diraction_3.png") no-repeat;}
+.dir_icon4{background: url("../images/diraction_4.png") no-repeat;}
+.uc .uc_body .uc_body_form  .diraction_icon{width:100%;height:80px; margin:30px auto auto 20px;}
+.uc .uc_body .uc_body_form  .diraction_dl li{float:left; width:200px; padding-left:40px;color:#999;font-size: 14px; font-weight: bold; margin-top:22px;}
+.uc .uc_body .uc_body_form  .diraction_dl .li_selected{color:#fff;}
+
+.uc .uc_body .uc_body_form  .changeAccount_theme{width:100%;height:400px; margin-top:100px;}
+.uc .uc_body .uc_body_form  .changeAccount_theme .tr_height{height:30px;}
+.uc .uc_body .uc_body_form  .changeAccount_theme .cl_left{width:440px;}
+.uc .uc_body .uc_body_form  .changeAccount_theme .cl_middle{width:220px;}
+.uc .uc_body .uc_body_form  .changeAccount_theme .text_width{width:200px;}
+
+/**changeAccount_2**/
+.uc .uc_body .uc_body_form  .changeAccount_theme .cl_middle_2{width:120px;}
+.uc .uc_body .uc_body_form  .changeAccount_theme .text_width_2{width:100px;}
+
+/**changeAccount_3**/
+.uc .uc_body .uc_body_form  .changeAccount_theme .cl_middle_3{width:120px;}
+
+
+/**changeAccount_4**/
+.uc .uc_body .uc_body_form  .changeAccount_theme  .userknow{margin:0px 100px; font-size:14px;font-weight: bold;font-family: 微软雅黑;padding:0px;}
+.uc .uc_body .uc_body_form  .changeAccount_theme  .userknow_content{margin:0px 100px;font-size:14px; line-height: 150%;font-family: 微软雅黑;}
+.uc .uc_body .uc_body_form  .changeAccount_theme  .userknow_content span{color:red;}
+.uc .uc_body .uc_body_form  .changeAccount_theme  .userknow_content label{color:green;}
+
+/**changeSecEmailAccount**/
+.uc .uc_body .uc_body_form  .changeAccount_theme .cl_left_1{width:380px;}
+
+
+
+/******Begin*注册密码复杂度*/
+.pwd-letter {margin-top:3px;}
+.pwd-letter span{
+ width:80px; background:#eee;margin-left:1px; display:block; float:left;text-align: center;color:#aaa;
+}
+.pwd-letter .off_pwd{
+ background:#eee;color:#aaa;
+}
+.pwd-letter .on_pwd_1{
+ background:red;color:white;
+}
+.pwd-letter .on_pwd_2{
+ background:#f1d93a;color:white;
+}
+.pwd-letter .on_pwd_3{
+ background:#63b418;color:white;
+}
+/******End*注册密码复杂度*/
